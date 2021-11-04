@@ -24,4 +24,14 @@ export const NavMenu = [
         url: "#",
         className: "nav-links"
     },
+    {
+        title: "Área do cliente",
+        url: "#",
+        className: "button"
+    },
+    {
+        title: "Comece a usar",
+        url: "#",
+        className: "button2"
+    },
 ]

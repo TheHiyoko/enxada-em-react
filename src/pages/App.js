@@ -1,13 +1,14 @@
-import react from "react";
-import Navbar from "../Components/Navbar/Navbar";
 import './App.css' 
+import Hero from "./Hero/hero"
+import Caixinha from './Box/Box';
 
 
 function App() {
   return (
 
     <div className="App">
-      <Navbar />
+      <Hero />
+      <Caixinha />
     </div>
   );
 }

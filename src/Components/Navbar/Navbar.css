@@ -1,5 +1,7 @@
 .NavbarItem{
-    background-color: darkgray;
+    margin: 0px;
+    padding: 25px;
+    background-color: none;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -9,26 +11,47 @@
 .nav-menu{
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(5, auto) ;
+    grid-template-columns: repeat(8, auto) ;
     grid-gap: 20px;
     list-style: none;
     text-align: center;
 }
 .Title{
-    margin-left: 20px;
+    font-size: 35px;
+    margin: 100px;
+    margin-left: 0px;
+    color: white;
+}
+.Sobre{
+    background: beige;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #8d8d8d;
+    text-decoration: none;
+}
+.button{
+    padding-left: 50px;
+    border: white;
+    border-style: solid;
+    text-decoration: none;
+    color:#fff;
+    padding: 15px;
+    border-radius: 25px;
+}
+.button2{
+    border: rgb(252, 255, 48);
+    border-style: solid;
+    text-decoration: none;
+    color:#fff;
+    padding: 15px;
+    border-radius: 25px;
 }
 .nav-links{
     Color: white;
     text-decoration: none;
     padding: 5px;
 }
-.Sobre{
-    background: grey;
-    padding: 10px 15px;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-}
+
 .fa-bars{
     color: #fff;
 }
